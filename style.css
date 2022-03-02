@@ -1,0 +1,305 @@
+*{
+
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #444;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #ac6a46; 
+    transition: all 1s;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	transition: all 1s;
+	background:#ab6741;
+}
+
+
+
+#header{
+	position: fixed;
+	color: #fff;
+	width: 100%;
+	height: 70px;
+	background-color: #000000a3;
+
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+#header .BlogName{
+
+	width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+}
+
+#header .BlogName i{
+
+	font-size: 22px;
+	transform: translateY(-3px);
+}
+
+#header .BlogName h3{
+
+	font-size: 22px;
+	transform: translateX(6px);
+}
+
+#header .Icons{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(-20px);
+
+	width: auto;
+	height: 100%;
+	color: #fff;
+	background-color: transparent;
+}
+
+#header .Icons a{
+
+	color: #fff;
+}
+
+#BgImg{
+	width: 100%;
+	height: 100vh;
+}
+
+#BgImg img{
+
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#FirstTheme{
+    
+    min-height: 700px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#FirstTheme .Content{
+
+    width: 38%;
+    color: #333;
+    height: auto;
+
+}
+
+#FirstTheme .Content h2{
+
+	font-size: 40px;
+	color: #bf9c5f;
+
+}
+
+#FirstTheme .Content p{
+
+	width: 71%;
+	font-size: 21px;
+}
+
+#FirstTheme .Icon i{
+
+	font-size: 170px;
+	color: #bf9c5f;
+}
+
+
+#SecondTheme{
+    
+    min-height: 700px;
+    background-color:#895c0f;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#SecondTheme .Content{
+
+    width: 38%;
+    color: #333;
+    height: auto;
+
+}
+
+#SecondTheme .Content h2{
+
+	font-size: 40px;
+	color: #fff;
+
+}
+
+#SecondTheme .Content p{
+
+	color: #fff;
+	width: 71%;
+	font-size: 21px;
+}
+
+#SecondTheme .Icon{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+#SecondTheme .Icon i{
+
+	font-size: 200px;
+	color: #fff;
+}
+
+
+#ThirdTheme{
+
+	min-height: 700px;
+    background-color: #724e0f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Card{
+
+	width: 310px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.Card .CardImg{
+
+	width: 100%;
+	height: 210px;
+	background-color: #333;
+}
+
+.Card .CardImg img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.Card .CardContent{
+
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 13px;
+
+}
+
+.Card .CardContent h5{
+	color: #bf9c5f;
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.Card .CardContent hr{
+
+	width: 30px;
+    border: 2px solid #bf9c5f;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.Card .CardContent p{
+
+	text-align: center;
+    color: #555;
+    font-size: 16px;
+
+}
+
+.Card .CardContent a{
+
+
+
+    background: #bf9c5f;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border: 1px solid #ccc9;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 10px;
+}
+
+footer{
+	
+	width: 100%;
+    text-align: center;
+    background-color: #724e0f;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+}
+
+.reveal{
+	position: relative;
+	transform: translateX(90px);
+	opacity: 0;
+	transition: all .8s ease;
+}
+
+.reveal.active{
+	transform: translateX(0px);
+	opacity: 1;
+	transition-delay: calc(200ms * var(--j));
+}

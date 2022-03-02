@@ -1,0 +1,177 @@
+@media (max-width: 998px){
+
+	#ThirdTheme{
+		flex-flow: column wrap;
+		gap:30px;
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 870px){
+
+	#FirstTheme .Content h2 {
+    font-size: 35px;
+}
+
+#FirstTheme .Content p {
+	font-size: 17px;
+}
+
+#FirstTheme .Icon i {
+    font-size: 150px;
+}
+
+#SecondTheme .Icon i {
+    font-size: 180px;
+}
+
+#SecondTheme .Content h2 {
+    font-size: 36px;
+}
+
+#SecondTheme .Content p {
+    font-size: 15px;
+}
+
+
+}
+
+
+@media (max-width: 636px){
+
+	#FirstTheme .Content h2 {
+    font-size: 35px;
+}
+
+#FirstTheme .Content p {
+	font-size: 17px;
+}
+
+#FirstTheme .Icon i {
+    font-size: 150px;
+}
+
+#SecondTheme .Icon i {
+    font-size: 180px;
+}
+
+#SecondTheme .Content h2 {
+    font-size: 36px;
+}
+
+#SecondTheme .Content p {
+    font-size: 15px;
+}
+
+
+}
+
+
+@media (max-width: 528px){
+
+	#FirstTheme .Content h2 {
+    font-size: 35px;
+}
+
+#FirstTheme .Content p {
+	font-size: 15px;
+	width: 90%;
+}
+
+#FirstTheme .Icon i {
+    font-size: 120px;
+}
+
+#SecondTheme .Icon i {
+    font-size: 161px;
+}
+
+#SecondTheme .Content h2 {
+    font-size: 36px;
+}
+
+#SecondTheme .Content p {
+    font-size: 14px;
+    width: 90%;
+}
+
+
+}
+
+@media (max-width: 496px){
+
+	#header .BlogName i {
+    font-size: 18px;
+}
+
+#header .BlogName h3 {
+    font-size: 18px;
+}
+
+#header .Icons a {
+    font-size: 13px;
+}
+
+}
+
+@media (max-width: 484px){
+
+	#FirstTheme{
+		flex-flow: column wrap;
+	    align-content: center;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+#FirstTheme .Content {
+    order: 2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#FirstTheme .Content p {
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+#SecondTheme{
+
+	flex-flow: column wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+#SecondTheme .Content{
+	margin-top: 40px;
+}
+
+#SecondTheme .Content h2 {
+    text-align: center;
+}
+
+#SecondTheme .Content p {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+}
+
+
+@media (max-width: 348px){
+
+	#header .BlogName i {
+    font-size: 15px;
+}
+
+#header .BlogName h3 {
+    font-size: 15px;
+}
+
+#header .Icons a {
+    font-size: 11px;
+}
+
+}
